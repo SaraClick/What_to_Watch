@@ -3,7 +3,7 @@ _____
 
 ### 👀 READ ME
 
-WhatToWatch is a final course project that asks the user to select a genre and a decade and provides 6 movie
+WhatToWatch is a final course group project that asks the user to select a genre and a decade and provides 6 movie
 recommendations for the selection made. Then the user selects a movie and WhatToWatch returns the streaming 
 availability for the UK for Amazon, Netflix, Apple TV, BBC, Disney + and Sky.
 
