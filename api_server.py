@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request
 import webbrowser
 
-app = Flask(__name__, template_folder='templates', static_folder='static_files')
+app = Flask(__name__, template_folder='templates', static_folder='static')
 
 
 # ROUTES TO EACH WEBPAGE
@@ -34,7 +34,12 @@ def streaming():
 
 
 ### GENRE USER SELECTION
-
+@app.route("/", methods=["POST", "GET"])
+def main_to_genre():
+    if request.method == "GET":
+        return render_template("/genre")
+    else:
+        return
 
 ### DECADE SELECTION
 
